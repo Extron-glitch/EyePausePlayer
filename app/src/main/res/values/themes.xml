@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EyePausePlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E53935</item>
+        <item name="colorPrimaryVariant">#B71C1C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">#000000</item>
+    </style>
+</resources>
