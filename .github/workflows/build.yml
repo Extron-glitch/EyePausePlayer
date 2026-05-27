@@ -32,8 +32,9 @@ jobs:
 
       - name: Fix Gradle wrapper
         run: |
-          sudo apt-get install -y gradle
-          gradle wrapper --gradle-version=8.2
+          curl -L https://services.gradle.org/distributions/gradle-8.2-bin.zip -o gradle-8.2-bin.zip
+          unzip -q gradle-8.2-bin.zip
+          ./gradle-8.2/bin/gradle wrapper
           chmod +x gradlew
 
       - name: Build Debug APK
