@@ -8,15 +8,14 @@
         android:maxSdkVersion="32" />
 
     <uses-feature android:name="android.hardware.camera.front" android:required="true" />
-
+    
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@android:mipmap/sym_def_app_icon"
         android:label="EyePause Player"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EyePausePlayer">
-
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"
